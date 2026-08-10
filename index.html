@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f0e8" />
+    <meta name="theme-color" content="#f7f4ed" />
     <meta
       name="description"
       content="Chenchen Mao studies how AI capabilities, output characteristics, and social context shape perceived intelligence and anthropomorphism—and how these perceptions relate to trust and willingness to disclose."
@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@500;600;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -38,9 +38,9 @@
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header" data-header>
-      <a class="wordmark" href="#top" aria-label="Chenchen Mao, home">
-        <span>CM</span>
-        <span class="wordmark-name">Chenchen Mao</span>
+      <a class="brand" href="#top" aria-label="Chenchen Mao, home">
+        <span class="brand-mark">CM</span>
+        <span>Chenchen Mao</span>
       </a>
 
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -49,211 +49,217 @@
       </button>
 
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#approach">Approach</a>
-        <a href="#publications">Writing</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
         <a href="#about">About</a>
-        <a class="nav-cta" href="assets/Chenchen_Mao_CV.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="assets/Chenchen_Mao_CV.pdf" target="_blank" rel="noopener">CV</a>
       </nav>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Human–AI Interaction Researcher</p>
-          <h1>I study how people <em>interpret AI.</em></h1>
+        <div class="hero-copy">
+          <p class="kicker">Human–AI Interaction Researcher</p>
+          <h1>I study how people interpret AI.</h1>
           <p class="hero-summary">
             My research examines how AI capabilities, output characteristics, and social context shape
             perceived intelligence and anthropomorphism—and how these perceptions relate to trust and
             willingness to disclose.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
-            <a class="button button-secondary" href="mailto:chm321@lehigh.edu">Start a conversation</a>
+          <div class="hero-links">
+            <a href="#research">Selected research <span aria-hidden="true">↓</span></a>
+            <a href="mailto:chm321@lehigh.edu">chm321@lehigh.edu</a>
           </div>
         </div>
 
-        <aside class="hero-panel reveal" aria-label="Current focus">
-          <p class="panel-label">Currently</p>
-          <p class="panel-title">Ph.D. Candidate in Computer Science</p>
-          <p>Lehigh University · Expected December 2026</p>
-          <div class="panel-rule"></div>
-          <p class="panel-label">Research focus</p>
-          <ul class="focus-list">
-            <li>AI capabilities &amp; outputs</li>
-            <li>Social context</li>
-            <li>Perceived intelligence &amp; anthropomorphism</li>
-            <li>Trust &amp; disclosure willingness</li>
-          </ul>
-          <div class="availability"><span></span> Exploring 2026 research roles</div>
+        <aside class="hero-note" aria-label="Current position">
+          <div>
+            <span>Current</span>
+            <strong>Ph.D. Candidate</strong>
+            <small>Computer Science, Lehigh University</small>
+          </div>
+          <div>
+            <span>Expected</span>
+            <strong>December 2026</strong>
+            <small>St. Louis, Missouri</small>
+          </div>
         </aside>
       </section>
 
-      <section class="proof-strip" aria-label="Core capabilities">
-        <div><strong>Behavioral</strong><span>Experiments</span></div>
-        <div><strong>Live-platform</strong><span>Research</span></div>
-        <div><strong>Quantitative</strong><span>Modeling</span></div>
-        <div><strong>Experimental</strong><span>Interfaces</span></div>
-      </section>
+      <div class="research-summary" aria-label="Core capabilities">
+        <span>Behavioral experiments</span>
+        <span>Live-platform research</span>
+        <span>Quantitative modeling</span>
+        <span>Experimental interfaces</span>
+      </div>
 
-      <section class="section work-section" id="work">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> Selected work</p>
-          <h2>Research built around real human behavior.</h2>
-          <p>From controlled AI interfaces to experiments embedded in live social platforms.</p>
-        </div>
-
-        <article class="featured-case reveal">
-          <div class="case-number">01</div>
-          <div class="case-main">
-            <div class="case-meta"><span>Human–AI interaction</span><span>Experiment · N = 306</span></div>
-            <h3>Readable but Less Faithful</h3>
-            <p class="case-subtitle">Source-Text Complexity, Trust, and Disclosure Willingness in AI Translation</p>
-            <p>
-              How does the way an AI renders an answer change what people think the system understands—and
-              what they are willing to share with it? I designed and ran a 2×2 experiment using TransLingo,
-              a cue-free translation interface built specifically for the study.
-            </p>
-            <div class="case-details">
-              <div><span>Question</span><p>How do readability, fidelity, and source complexity shape perceived quality?</p></div>
-              <div><span>Method</span><p>Prolific recruitment, stimulus audit, and structural equation modeling in R.</p></div>
-              <div><span>Signal</span><p>Perceived quality was associated with intelligence, anthropomorphism, trust, and disclosure.</p></div>
-            </div>
-          </div>
-          <div class="case-mark" aria-hidden="true"><span>AI</span><i></i><span>Human</span></div>
-        </article>
-
-        <div class="case-grid">
-          <article class="case-card case-card-dark reveal">
-            <div class="case-number">02</div>
-            <div class="case-meta"><span>Social computing</span><span>Research infrastructure</span></div>
-            <h3>Outer Limits</h3>
-            <p class="case-subtitle">Controlled Content Manipulation within the Reddit Interface</p>
-            <p>
-              A browser-based research tool that manipulates live Reddit content and engagement cues while
-              preserving the authentic interface—bringing experimental control into a real platform context.
-            </p>
-            <ul class="tag-list" aria-label="Methods">
-              <li>Chrome extension</li><li>Field–lab method</li><li>Ecological validity</li>
-            </ul>
-          </article>
-
-          <article class="case-card case-card-accent reveal">
-            <div class="case-number">03</div>
-            <div class="case-meta"><span>LLM perception</span><span>Completed field experiment</span></div>
-            <h3>From Tool to Social Actor</h3>
-            <p class="case-subtitle">How LLM Capabilities and Social Context Shape Trust</p>
-            <p>
-              A 2×2 Reddit-based experiment testing whether general-purpose capability cues shift AI from a
-              functional tool toward a social actor in users’ minds.
-            </p>
-            <ul class="tag-list" aria-label="Methods">
-              <li>AI literacy</li><li>Anthropomorphism</li><li>SEM</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="compact-work reveal">
-          <article>
-            <p class="case-index">04 / EXPERIMENT</p>
-            <h3>Political and Scientific Framing on Reddit</h3>
-            <p>A 2×2 field experiment (N = 442) connecting message frames, social cues, health beliefs, and vaccination intention.</p>
-          </article>
-          <article>
-            <p class="case-index">05 / PRODUCT</p>
-            <h3>CellarEcho</h3>
-            <p>An AI-powered wine assistant with retrieval grounding, persistent memory, multilingual support, and cellar-specific answers.</p>
-          </article>
-          <article>
-            <p class="case-index">06 / COLLABORATION</p>
-            <h3>AI Truman</h3>
-            <p>Experimental infrastructure for studying AI content, feed congruence, attention, engagement, and platform trust.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section approach-section" id="approach">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> How I work</p>
-          <h2>From AI characteristics and context to human interpretation and response.</h2>
-        </div>
-
-        <div class="approach-grid">
-          <article class="approach-card reveal">
-            <span class="approach-step">01</span>
-            <h3>Isolate the system characteristic</h3>
-            <p>Turn a capability, output characteristic, or contextual cue into a controlled experimental manipulation.</p>
-          </article>
-          <article class="approach-card reveal">
-            <span class="approach-step">02</span>
-            <h3>Create realistic exposure</h3>
-            <p>Build interfaces and live-platform settings where participants encounter the capability in context.</p>
-          </article>
-          <article class="approach-card reveal">
-            <span class="approach-step">03</span>
-            <h3>Measure the perception shift</h3>
-            <p>Examine perceived quality, intelligence, and anthropomorphism—not only surface preference.</p>
-          </article>
-          <article class="approach-card reveal">
-            <span class="approach-step">04</span>
-            <h3>Trace downstream outcomes</h3>
-            <p>Model how those perceptions relate to trust and people’s willingness to disclose information.</p>
-          </article>
-        </div>
-
-        <div class="methods reveal">
-          <p>Methods &amp; tools</p>
+      <section class="section research-section" id="research">
+        <div class="section-intro">
+          <p class="section-label">Selected research</p>
           <div>
-            <span>Behavioral experiments</span><span>Survey design</span><span>SEM</span><span>Regression</span>
-            <span>ANOVA</span><span>Prolific</span><span>Qualtrics</span><span>R</span><span>Python</span>
-            <span>JavaScript</span><span>HTML/CSS</span><span>MongoDB</span>
+            <h2>Studies of AI perception in controlled and real-world settings.</h2>
+            <p>
+              I build the environments needed to test a question, then use experiments and statistical
+              modeling to examine the mechanisms behind people’s responses.
+            </p>
           </div>
+        </div>
+
+        <div class="research-list">
+          <article class="research-item">
+            <div class="project-meta">
+              <span>01</span>
+              <p>AI translation</p>
+              <p>2×2 experiment · N = 306</p>
+            </div>
+            <div class="project-content">
+              <h3>Readable but Less Faithful</h3>
+              <p class="project-subtitle">Source-Text Complexity, Trust, and Disclosure Willingness in AI Translation</p>
+              <p>
+                I built TransLingo, a plain-text translation interface without an avatar, voice, or persona,
+                to isolate how readability- and fidelity-oriented renderings affect perceived translation quality.
+                The study also examined how source-text complexity changes that evaluation.
+              </p>
+              <dl class="project-details">
+                <div>
+                  <dt>Analysis</dt>
+                  <dd>Stimulus-level audit, behavioral experiment, and structural equation modeling in R.</dd>
+                </div>
+                <div>
+                  <dt>What emerged</dt>
+                  <dd>Perceived quality was associated with perceived intelligence, anthropomorphism, trust, and willingness to disclose.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="project-meta">
+              <span>02</span>
+              <p>Social computing</p>
+              <p>Research infrastructure</p>
+            </div>
+            <div class="project-content">
+              <h3>Outer Limits</h3>
+              <p class="project-subtitle">An Experimental Approach to Controlled Content Manipulation within the Reddit Interface</p>
+              <p>
+                Outer Limits is a browser-based research tool that changes live Reddit content and engagement
+                cues while preserving the platform’s familiar interface. It supports controlled experiments
+                without asking participants to imagine how a social platform might feel.
+              </p>
+              <p class="method-line">Chrome extension · Hybrid field–lab method · Ecological realism</p>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="project-meta">
+              <span>03</span>
+              <p>LLM perception</p>
+              <p>Completed field experiment</p>
+            </div>
+            <div class="project-content">
+              <h3>From Tool to Social Actor</h3>
+              <p class="project-subtitle">How LLM Capabilities and Social Context Shape Trust</p>
+              <p>
+                A 2×2 experiment deployed through Outer Limits tested whether multifunctionality and explanation
+                change how people understand a general-purpose AI—as a functional tool or as something closer
+                to a social actor.
+              </p>
+              <p class="method-line">Perceived intelligence · Anthropomorphism · AI literacy · Benevolence and integrity trust</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="other-work">
+          <p class="section-label">Other work</p>
+          <div class="other-work-list">
+            <article>
+              <h3>Political and Scientific Framing on Reddit</h3>
+              <p>A 2×2 field experiment (N = 442) connecting message frames, social cues, health beliefs, and vaccination intention.</p>
+            </article>
+            <article>
+              <h3>AI Truman</h3>
+              <p>Experimental infrastructure for studying AI content, feed congruence, attention, engagement, and platform trust.</p>
+            </article>
+            <article>
+              <h3>CellarEcho</h3>
+              <p>An AI-powered wine assistant with retrieval grounding, persistent memory, multilingual support, and cellar-specific answers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section approach-section">
+        <div>
+          <p class="section-label">Research approach</p>
+          <h2>Make one characteristic visible. Hold the rest still.</h2>
+        </div>
+        <div class="approach-copy">
+          <p>
+            I usually begin by isolating one capability, output characteristic, or contextual cue. When an
+            existing product cannot provide the necessary control, I build a small experimental interface that can.
+          </p>
+          <p>
+            My analyses distinguish between the perceptions created by an experimental condition and the later
+            relationships among perceived intelligence, anthropomorphism, trust, and disclosure willingness.
+          </p>
+          <p class="methods">
+            <strong>Methods:</strong> behavioral and online experiments, survey design, SEM, regression, ANOVA,
+            stimulus validation, Prolific, Qualtrics, R, Python, and JavaScript.
+          </p>
         </div>
       </section>
 
       <section class="section publications-section" id="publications">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> Publications &amp; writing</p>
-          <h2>Selected research.</h2>
+        <div class="section-intro publications-intro">
+          <p class="section-label">Publications</p>
+          <h2>Selected writing.</h2>
         </div>
 
         <div class="publication-list">
-          <a class="publication reveal" href="https://doi.org/10.1016/j.jadohealth.2025.03.024" target="_blank" rel="noopener">
-            <span class="pub-year">2025</span>
-            <span class="pub-copy"><strong>Sharing antivaping social media messages</strong><small>Journal of Adolescent Health, 77(2), 253–261 · Co-author</small></span>
-            <span class="pub-arrow" aria-hidden="true">↗</span>
+          <a href="https://doi.org/10.1016/j.jadohealth.2025.03.024" target="_blank" rel="noopener">
+            <span>2025</span>
+            <div>
+              <strong>Sharing antivaping social media messages</strong>
+              <small>Journal of Adolescent Health, 77(2), 253–261 · Co-author</small>
+            </div>
+            <i aria-hidden="true">↗</i>
           </a>
-          <a class="publication reveal" href="https://doi.org/10.1016/j.jadohealth.2025.01.006" target="_blank" rel="noopener">
-            <span class="pub-year">2025</span>
-            <span class="pub-copy"><strong>Young people are willing to intervene against rape myths online</strong><small>Journal of Adolescent Health · Co-author</small></span>
-            <span class="pub-arrow" aria-hidden="true">↗</span>
+          <a href="https://doi.org/10.1016/j.jadohealth.2025.01.006" target="_blank" rel="noopener">
+            <span>2025</span>
+            <div>
+              <strong>Young people are willing to intervene against rape myths online</strong>
+              <small>Journal of Adolescent Health · Co-author</small>
+            </div>
+            <i aria-hidden="true">↗</i>
           </a>
-          <div class="publication reveal">
-            <span class="pub-year">Working paper</span>
-            <span class="pub-copy"><strong>Readable but Less Faithful</strong><small>Source-Text Complexity, Trust, and Disclosure Willingness in AI Translation · Lead author</small></span>
+          <div class="publication-entry">
+            <span>Working paper</span>
+            <div>
+              <strong>Readable but Less Faithful</strong>
+              <small>Source-Text Complexity, Trust, and Disclosure Willingness in AI Translation · Lead author</small>
+            </div>
           </div>
-          <div class="publication reveal">
-            <span class="pub-year">Working paper</span>
-            <span class="pub-copy"><strong>Outer Limits</strong><small>An Experimental Approach to Controlled Content Manipulation within the Reddit Interface · Lead author</small></span>
+          <div class="publication-entry">
+            <span>Working paper</span>
+            <div>
+              <strong>Outer Limits</strong>
+              <small>An Experimental Approach to Controlled Content Manipulation within the Reddit Interface · Lead author</small>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section about-section" id="about">
-        <div class="about-copy reveal">
-          <p class="eyebrow"><span></span> About</p>
+        <div class="about-heading">
+          <p class="section-label">About</p>
           <h2>I study what AI comes to mean in the minds of the people using it.</h2>
         </div>
-        <div class="about-profile reveal">
-          <figure class="about-photo">
-            <img
-              src="assets/chenchen-mao.jpeg"
-              alt="Chenchen Mao outdoors"
-              loading="lazy"
-              decoding="async"
-            />
+        <div class="about-profile">
+          <figure>
+            <img src="assets/chenchen-mao.jpeg" alt="Chenchen Mao outdoors" loading="lazy" decoding="async" />
           </figure>
-          <div class="about-body">
+          <div class="about-copy">
             <p>
               I’m a Computer Science Ph.D. candidate at Lehigh University working across human–AI interaction,
               social computing, and behavioral science. My research asks how people interpret AI capabilities,
@@ -274,13 +280,14 @@
       </section>
 
       <section class="contact-section">
-        <div class="contact-orbit" aria-hidden="true"></div>
-        <p class="eyebrow light"><span></span> Let’s connect</p>
-        <h2>Studying how people interpret<br />increasingly capable AI?</h2>
-        <p>I’d love to connect around human-centered AI evaluation and research.</p>
-        <div class="contact-actions">
-          <a class="button button-light" href="mailto:chm321@lehigh.edu">chm321@lehigh.edu</a>
-          <a class="text-link" href="https://github.com/chenchenmao96" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Interested in how people interpret increasingly capable AI?</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:chm321@lehigh.edu">chm321@lehigh.edu</a>
+          <a href="https://github.com/chenchenmao96" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="assets/Chenchen_Mao_CV.pdf" target="_blank" rel="noopener">Download CV ↗</a>
         </div>
       </section>
     </main>
@@ -288,7 +295,6 @@
     <footer>
       <p>© <span data-year></span> Chenchen Mao</p>
       <p>Human–AI interaction · St. Louis, MO</p>
-      <a href="#top">Back to top ↑</a>
     </footer>
   </body>
 </html>
