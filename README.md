@@ -1,4 +1,4 @@
-# chenchenmao.me
+# chenchenmao96.github.io
 
 Personal research portfolio for Chenchen Mao, built as a responsive static site for GitHub Pages.
 
@@ -8,8 +8,4 @@ Personal research portfolio for Chenchen Mao, built as a responsive static site 
 2. In the repository, open **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select `main` and `/ (root)`, then save.
-5. The included `CNAME` file configures the site for `chenchenmao.me`.
-
-## Domain records
-
-At the domain registrar, configure the apex domain with GitHub Pages' current A/AAAA records, and add `www` as a CNAME to `chenchenmao96.github.io`. Verify the current values in GitHub's official custom-domain documentation before changing DNS.
+5. The site is available at `https://chenchenmao96.github.io`.
