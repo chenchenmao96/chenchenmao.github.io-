@@ -735,20 +735,25 @@ a.publication:focus-visible {
 
 .about-section {
   display: grid;
-  grid-template-areas: "copy photo body";
-  grid-template-columns: minmax(0, 0.9fr) minmax(12rem, 0.58fr) minmax(0, 1fr);
-  gap: clamp(1.7rem, 4.5vw, 4.5rem);
+  grid-template-areas: "copy profile";
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1fr);
+  gap: clamp(2.5rem, 8vw, 8rem);
   align-items: start;
   border-top: 1px solid var(--line);
 }
 
 .about-copy { grid-area: copy; }
 
+.about-profile {
+  grid-area: profile;
+  display: grid;
+  gap: 2.2rem;
+}
+
 .about-photo {
-  grid-area: photo;
   overflow: hidden;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 2;
   margin: 0;
   border-radius: var(--radius);
   background: var(--paper-deep);
@@ -763,8 +768,6 @@ a.publication:focus-visible {
   object-position: 50% 34%;
   filter: saturate(0.88) contrast(0.98);
 }
-
-.about-body { grid-area: body; }
 
 .about-body > p {
   margin: 0 0 1.25rem;
@@ -890,11 +893,7 @@ footer p { margin: 0; }
   .approach-grid { grid-template-columns: repeat(2, 1fr); }
   .approach-card:nth-child(2) { border-right: 0; }
   .approach-card:nth-child(-n + 2) { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
-  .about-section {
-    grid-template-areas: "copy body" "photo body";
-    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1fr);
-  }
-  .about-photo { max-width: 21rem; }
+  .about-section { gap: clamp(2.5rem, 5vw, 4rem); }
 }
 
 @media (max-width: 820px) {
@@ -958,7 +957,7 @@ footer p { margin: 0; }
   .compact-work article { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .compact-work article:last-child { border-bottom: 0; }
   .about-section {
-    grid-template-areas: "copy" "photo" "body";
+    grid-template-areas: "copy" "profile";
     grid-template-columns: 1fr;
   }
   .about-photo {
