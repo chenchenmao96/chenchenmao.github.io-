@@ -362,7 +362,8 @@ h1, h2, h3 { font-family: "Newsreader", Georgia, serif; font-weight: 400; }
 .publication-list > a:focus-visible { color: var(--accent); }
 
 .publication-list span { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; }
-.publication-list div { display: flex; flex-direction: column; gap: 0.15rem; }
+.publication-list > a > div,
+.publication-entry > div { display: flex; flex-direction: column; gap: 0.15rem; }
 .publication-list strong { font-family: "Newsreader", Georgia, serif; font-size: 1.3rem; font-weight: 400; line-height: 1.25; }
 .publication-list small { color: var(--muted); }
 .publication-list i { font-style: normal; }
