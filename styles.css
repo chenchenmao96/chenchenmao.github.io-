@@ -243,6 +243,7 @@ h1, h2, h3 { font-family: "Newsreader", Georgia, serif; font-weight: 400; }
   color: var(--muted);
 }
 
+.research-label { margin-bottom: 2rem; }
 .research-list { border-top: 1px solid var(--ink); }
 
 .research-item {
